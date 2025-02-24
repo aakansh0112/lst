@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Themed Restaurant</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Body Styling */
+        body {
+            background-color:rgb(200, 174, 170);
+            color: #fff;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background: #4e342e;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar a {
+            color: #f5e0c3;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #c8a382;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: url('https://source.unsplash.com/1600x900/?coffee,restaurant') center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        /* Sections */
+        .section {
+            padding: 60px;
+            margin: 40px;
+            background: #3e2723;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .section img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1210;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#special-diets">Special Diets</a>
+        <a href="#reservations">Reservations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+    </div>
+
+    <div class="hero" id="home">
+        <h1>Welcome to Our Coffee-Themed Restaurant</h1>
+        <p>Experience the best dishes in a cozy ambiance.</p>
+    </div>
+
+    <div class="section" id="menu">
+        <h2>Menu</h2>
+        <p>Explore our range of appetizers, main courses, desserts, and beverages.</p>
+        <img src="https://source.unsplash.com/1600x900/?food,menu" alt="Restaurant menu">
+    </div>
+
+    <div class="section" id="special-diets">
+        <h2>Special Diets</h2>
+        <p>We offer gluten-free and vegan options for our customers.</p>
+        <img src="https://source.unsplash.com/1600x900/?healthy,vegan,food" alt="Healthy vegan food">
+    </div>
+
+    <div class="section" id="reservations">
+        <h2>Reservations</h2>
+        <p>Book your table online or contact us for private events.</p>
+        <img src="https://source.unsplash.com/1600x900/?restaurant,reservation" alt="Table reservations">
+    </div>
+
+    <div class="section" id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our food and restaurant interior photos.</p>
+        <img src="https://source.unsplash.com/1600x900/?cafe,restaurant,interior" alt="Restaurant interior">
+    </div>
+
+    <div class="section" id="blog">
+        <h2>Blog</h2>
+        <p>Read our latest recipes, cooking tips, and restaurant news.</p>
+        <img src="https://source.unsplash.com/1600x900/?coffee,blog" alt="Coffee and blog">
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch through our contact form, map location, or social media.</p>
+        <img src="https://source.unsplash.com/1600x900/?contact,phone" alt="Contact us">
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>Learn about our story, team, values, and customer reviews.</p>
+        <img src="https://source.unsplash.com/1600x900/?restaurant,team" alt="About our restaurant">
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Coffee Themed Restaurant. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
